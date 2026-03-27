@@ -30,6 +30,13 @@
     "title": "Business + technology transformation",
     "body": "Manarix Solutions is a digital transformation firm helping organizations modernize operations, build scalable digital products, and drive growth through aligned strategy and execution. We combine advisory depth with delivery rigor—for B2B and B2C contexts—so innovation becomes measurable outcomes.",
     "logosLabel": "Trusted by teams at",
+    "clients": {
+      "vertex": { "name": "Vertex Global", "sector": "Enterprise software" },
+      "nordic": { "name": "Nordic Finance", "sector": "Banking & capital markets" },
+      "pulse": { "name": "Pulse Retail", "sector": "Retail & e-commerce" },
+      "helix": { "name": "Helix Health", "sector": "Healthcare & life sciences" },
+      "apex": { "name": "Apex Manufacturing", "sector": "Industrial & operations" }
+    },
     "stats": {
       "projects": "Projects Delivered",
       "industries": "Industries Served",

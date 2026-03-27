@@ -226,3 +226,54 @@ html {
 .animate-scroll-nudge {
   animation: scroll-nudge 2.2s ease-in-out infinite;
 }
+
+/* Trust strip — seamless loop (content duplicated in JSX) */
+@keyframes trust-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.trust-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  animation: trust-marquee 42s linear infinite;
+  will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .trust-marquee-track {
+    gap: 1.25rem;
+  }
+}
+
+.trust-marquee-wrap:hover .trust-marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trust-marquee-wrap {
+    overflow: visible;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  .trust-marquee-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Hide duplicated strip (second half) when not animating */
+  .trust-marquee-track > div:nth-child(n + 6) {
+    display: none;
+  }
+}

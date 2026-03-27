@@ -1,9 +1,10 @@
 import { useTranslation } from 'react-i18next';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import AnimatedCounter from './AnimatedCounter';
+import ClientLogoMark from './ClientLogoMark';
 import FadeIn from './FadeIn';
 
-const logoPlaceholders = ['Vertex Global', 'Nordic Finance', 'Pulse Retail', 'Helix Health', 'Apex Manufacturing'];
+const clientIds = ['vertex', 'nordic', 'pulse', 'helix', 'apex'];
 
 const stats = [
   { value: 50, suffix: '+', labelKey: 'trust.stats.projects' },
@@ -45,15 +46,28 @@ export default function SocialProof() {
               </p>
               <span className="h-px flex-1 bg-gradient-to-l from-transparent to-gray-300/80" />
             </div>
-            <div className="flex flex-wrap justify-center items-center gap-4 md:gap-5">
-              {logoPlaceholders.map((name) => (
-                <div
-                  key={name}
-                  className="h-14 px-8 flex items-center justify-center rounded-xl bg-white border border-gray-200/90 text-gray-400 font-heading font-semibold text-xs tracking-[0.08em] uppercase shadow-premium-card hover:shadow-premium-hover hover:border-[var(--color-primary)]/15 transition-all duration-500 hover:-translate-y-0.5"
-                >
-                  {name}
-                </div>
-              ))}
+            <div
+              className="trust-marquee-wrap relative w-full overflow-hidden rounded-2xl [mask-image:linear-gradient(90deg,transparent,black_6%,black_94%,transparent)] [-webkit-mask-image:linear-gradient(90deg,transparent,black_6%,black_94%,transparent)]"
+              aria-label={t('trust.logosLabel')}
+            >
+              <div className="trust-marquee-track py-1">
+                {[...clientIds, ...clientIds].map((id, index) => (
+                  <div
+                    key={`${id}-${index}`}
+                    className="shrink-0 w-[min(100%,240px)] sm:w-[260px]"
+                  >
+                    <div className="group h-full min-h-[7.5rem] flex flex-col items-center justify-center gap-3 px-5 py-6 rounded-2xl bg-white border border-gray-200/90 shadow-premium-card hover:shadow-premium-hover hover:border-[var(--color-primary)]/20 transition-all duration-500 hover:-translate-y-0.5 text-center">
+                      <ClientLogoMark clientId={id} className="opacity-95 group-hover:scale-[1.03] transition-transform duration-500" />
+                      <div className="space-y-1 min-w-0 w-full">
+                        <p className="font-heading font-semibold text-[15px] text-[var(--color-surface-dark)] tracking-tight leading-snug">
+                          {t(`trust.clients.${id}.name`)}
+                        </p>
+                        <p className="text-[12px] text-gray-500 leading-snug">{t(`trust.clients.${id}.sector`)}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </FadeIn>

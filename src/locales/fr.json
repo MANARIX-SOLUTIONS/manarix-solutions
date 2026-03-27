@@ -30,6 +30,13 @@
     "title": "Transformation métier et technologie",
     "body": "Manarix Solutions accompagne les organisations dans la modernisation de leurs opérations, la création de produits numériques évolutifs et la croissance grâce à une stratégie et une exécution alignées. Nous combinons expertise conseil et rigueur de delivery — B2B et B2C — pour que l’innovation se traduise en résultats mesurables.",
     "logosLabel": "Ils nous font confiance",
+    "clients": {
+      "vertex": { "name": "Vertex Global", "sector": "Logiciels d’entreprise" },
+      "nordic": { "name": "Nordic Finance", "sector": "Banque & marchés financiers" },
+      "pulse": { "name": "Pulse Retail", "sector": "Retail & e-commerce" },
+      "helix": { "name": "Helix Health", "sector": "Santé & sciences du vivant" },
+      "apex": { "name": "Apex Manufacturing", "sector": "Industrie & opérations" }
+    },
     "stats": {
       "projects": "Projets livrés",
       "industries": "Secteurs couverts",
