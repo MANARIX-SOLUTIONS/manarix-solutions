@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "Manarix Solutions | Digital Transformation Consulting",
+    "description": "Digital transformation consulting — strategy, technology, and execution."
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "process": "How We Work",
+    "caseStudies": "Case Studies",
+    "whyUs": "Why Us",
+    "contact": "Contact",
+    "bookConsultation": "Book a Consultation",
+    "toggleMenu": "Toggle menu"
+  },
+  "brand": {
+    "name": "Manarix Solutions"
+  },
+  "hero": {
+    "eyebrow": "Manarix Solutions",
+    "title": "Transform Your Business Through Technology and Strategy",
+    "subtitle": "We help companies modernize, innovate, and scale with tailored digital solutions.",
+    "tagline": "Guiding your digital transformation",
+    "ctaPrimary": "Book a Free Consultation",
+    "ctaSecondary": "Explore Our Solutions",
+    "trustBadge": "Trusted by growing businesses and forward-thinking organizations"
+  },
+  "trust": {
+    "eyebrow": "Who we are",
+    "title": "Business + technology transformation",
+    "body": "Manarix Solutions is a digital transformation firm helping organizations modernize operations, build scalable digital products, and drive growth through aligned strategy and execution. We combine advisory depth with delivery rigor—for B2B and B2C contexts—so innovation becomes measurable outcomes.",
+    "logosLabel": "Trusted by teams at",
+    "stats": {
+      "projects": "Projects Delivered",
+      "industries": "Industries Served",
+      "impactTitle": "High-impact digital solutions",
+      "impactSubtitle": "From discovery to scale—with measurable ROI."
+    }
+  },
+  "services": {
+    "eyebrow": "Capabilities",
+    "title": "Advisory and execution, end to end",
+    "subtitle": "Strategy-led delivery across digital products, platforms, and performance—structured for clarity and impact.",
+    "items": {
+      "strategy": {
+        "title": "Digital Strategy & Advisory",
+        "description": "Business transformation roadmaps, operating models, and technology alignment—so every initiative ladders to growth."
+      },
+      "custom": {
+        "title": "Custom Digital Solutions",
+        "description": "SaaS, ERP, CRM, and web & mobile experiences engineered for reliability, security, and scale."
+      },
+      "innovation": {
+        "title": "Innovation & Labs",
+        "description": "Rapid prototyping, MVPs, and structured experimentation to de-risk innovation before full rollout."
+      },
+      "data": {
+        "title": "Data & Performance Optimization",
+        "description": "Analytics, dashboards, and business intelligence that turn fragmented data into decisive action."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "A disciplined path from insight to impact",
+    "subtitle": "Clear stages, shared accountability, and momentum you can measure—whether you need strategy, build, or both.",
+    "steps": {
+      "discover": { "title": "Discover", "subtitle": "Understand business challenges" },
+      "strategize": { "title": "Strategize", "subtitle": "Build transformation roadmap" },
+      "build": { "title": "Build", "subtitle": "Develop and integrate solutions" },
+      "scale": { "title": "Scale", "subtitle": "Optimize and grow" }
+    }
+  },
+  "cases": {
+    "eyebrow": "Proof of impact",
+    "title": "Case studies & results",
+    "subtitle": "Representative outcomes from transformation programs delivered with executive alignment and measurable KPIs.",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "items": {
+      "financial": {
+        "industry": "Financial services",
+        "problem": "Fragmented systems slowed onboarding and increased operational risk.",
+        "solution": "Unified customer platform with automated compliance workflows and real-time monitoring.",
+        "result": "+40%",
+        "resultLabel": "efficiency in core processes"
+      },
+      "retail": {
+        "industry": "Retail & consumer",
+        "problem": "Inventory blind spots drove stockouts and margin leakage across regions.",
+        "solution": "Integrated ERP with demand signals and supplier orchestration.",
+        "result": "−28%",
+        "resultLabel": "inventory carrying cost"
+      },
+      "health": {
+        "industry": "Healthcare",
+        "problem": "Manual intake created bottlenecks and inconsistent patient experience.",
+        "solution": "Digital front door with EHR integration and intelligent scheduling.",
+        "result": "+50%",
+        "resultLabel": "faster patient check-in"
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Why Manarix",
+    "title": "Built for leaders who need outcomes—not noise",
+    "strategy": "Strategy",
+    "technology": "Technology",
+    "innovationLine": "Innovation-driven delivery",
+    "pillars": {
+      "fluency": {
+        "title": "Business + technology fluency",
+        "description": "Leaders who speak strategy and engineering—so roadmaps stay feasible and outcomes stay accountable."
+      },
+      "support": {
+        "title": "End-to-end support",
+        "description": "From boardroom narrative to production releases—we stay through adoption, not just the slide deck."
+      },
+      "scale": {
+        "title": "Scalable, future-proof solutions",
+        "description": "Architectures designed for change—modular platforms, clear APIs, and pragmatic modernization."
+      },
+      "execution": {
+        "title": "Strong execution capability",
+        "description": "Delivery rituals, transparent governance, and velocity—without sacrificing quality or security."
+      }
+    },
+    "testimonialsTitle": "What clients say",
+    "testimonials": {
+      "one": {
+        "quote": "Manarix brought clarity to a complex modernization agenda—and shipped. The blend of strategic framing and delivery discipline is rare.",
+        "author": "Chief Digital Officer",
+        "org": "Global services firm"
+      },
+      "two": {
+        "quote": "They didn’t disappear after the roadmap. Execution was disciplined, transparent, and tuned to our risk profile.",
+        "author": "VP Operations",
+        "org": "B2B technology company"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to transform your business?",
+    "subtitle": "Let's build your next digital success story.",
+    "responseBadge": "Typical response within one business day",
+    "primary": "Schedule Your Free Strategy Call",
+    "secondary": "Email our team"
+  },
+  "footer": {
+    "tagline": "Guiding your digital transformation. We help organizations modernize with strategy, technology, and disciplined execution.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterHint": "Brief perspectives on transformation, platforms, and performance.",
+    "emailPlaceholder": "Work email",
+    "subscribe": "Subscribe",
+    "subscribed": "Thank you for subscribing.",
+    "globalDelivery": "Global delivery",
+    "copyright": "© {{year}} Manarix Solutions. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "links": {
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "contactPage": {
+    "metaLabel": "Contact",
+    "title": "Get in Touch",
+    "subtitle": "Book your free strategy session.",
+    "responseBadge": "Response within 24h",
+    "formTitle": "Contact Form",
+    "formIntro": "Fill out the form below and we'll schedule your free strategy session.",
+    "fields": {
+      "fullName": "Full Name *",
+      "email": "Email *",
+      "phone": "Phone",
+      "company": "Company",
+      "service": "Service Interest *",
+      "message": "Message *"
+    },
+    "placeholders": {
+      "name": "John Doe",
+      "email": "john@company.com",
+      "phone": "+1 (234) 567-890",
+      "company": "Your company name",
+      "message": "Tell us about your project or challenges..."
+    },
+    "selectService": "Select a service",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "footnote": "No commitment required • 30-minute discovery call • Expert insights",
+    "successTitle": "Thank You!",
+    "successBody": "Your message has been received. Our team will get back to you within 24 hours.",
+    "backHome": "Back to Home",
+    "cards": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "locationValue": "Africa & Global"
+    },
+    "services": {
+      "strategy": "Digital Strategy & Advisory",
+      "custom": "Custom Digital Solutions",
+      "innovation": "Innovation & Labs",
+      "data": "Data & Performance Optimization",
+      "general": "General inquiry"
+    }
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "switch": "Language"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "Manarix Solutions | Conseil en transformation numérique",
+    "description": "Conseil en transformation numérique — stratégie, technologie et exécution."
+  },
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "process": "Notre méthode",
+    "caseStudies": "Études de cas",
+    "whyUs": "Pourquoi nous",
+    "contact": "Contact",
+    "bookConsultation": "Réserver une consultation",
+    "toggleMenu": "Ouvrir le menu"
+  },
+  "brand": {
+    "name": "Manarix Solutions"
+  },
+  "hero": {
+    "eyebrow": "Manarix Solutions",
+    "title": "Transformez votre entreprise par la technologie et la stratégie",
+    "subtitle": "Nous aidons les organisations à se moderniser, innover et croître grâce à des solutions numériques sur mesure.",
+    "tagline": "Nous guidons votre transformation numérique",
+    "ctaPrimary": "Réserver une consultation gratuite",
+    "ctaSecondary": "Découvrir nos solutions",
+    "trustBadge": "Une entreprise de confiance pour les organisations tournées vers l’avenir"
+  },
+  "trust": {
+    "eyebrow": "Qui sommes-nous",
+    "title": "Transformation métier et technologie",
+    "body": "Manarix Solutions accompagne les organisations dans la modernisation de leurs opérations, la création de produits numériques évolutifs et la croissance grâce à une stratégie et une exécution alignées. Nous combinons expertise conseil et rigueur de delivery — B2B et B2C — pour que l’innovation se traduise en résultats mesurables.",
+    "logosLabel": "Ils nous font confiance",
+    "stats": {
+      "projects": "Projets livrés",
+      "industries": "Secteurs couverts",
+      "impactTitle": "Solutions numériques à fort impact",
+      "impactSubtitle": "De la découverte à l’échelle — avec un ROI mesurable."
+    }
+  },
+  "services": {
+    "eyebrow": "Capabilities",
+    "title": "Du conseil à l’exécution, de bout en bout",
+    "subtitle": "Une approche pilotée par la stratégie sur les produits, plateformes et la performance — structurée pour la clarté et l’impact.",
+    "items": {
+      "strategy": {
+        "title": "Stratégie et conseil numérique",
+        "description": "Feuilles de route de transformation, modèles opérationnels et alignement technologique — pour que chaque initiative soutienne la croissance."
+      },
+      "custom": {
+        "title": "Solutions numériques sur mesure",
+        "description": "SaaS, ERP, CRM et expériences web & mobile conçues pour la fiabilité, la sécurité et la montée en charge."
+      },
+      "innovation": {
+        "title": "Innovation & Labs",
+        "description": "Prototypage rapide, MVP et expérimentation structurée pour réduire les risques avant un déploiement à grande échelle."
+      },
+      "data": {
+        "title": "Données et performance",
+        "description": "Analytique, tableaux de bord et intelligence décisionnelle pour transformer la donnée en action."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Notre méthode",
+    "title": "Un parcours discipliné de l’insight à l’impact",
+    "subtitle": "Des étapes claires, une responsabilité partagée et une dynamique mesurable — conseil, réalisation ou les deux.",
+    "steps": {
+      "discover": { "title": "Découvrir", "subtitle": "Comprendre les enjeux métier" },
+      "strategize": { "title": "Stratégie", "subtitle": "Construire la feuille de route" },
+      "build": { "title": "Construire", "subtitle": "Développer et intégrer les solutions" },
+      "scale": { "title": "Accélérer", "subtitle": "Optimiser et faire croître" }
+    }
+  },
+  "cases": {
+    "eyebrow": "Impact",
+    "title": "Études de cas et résultats",
+    "subtitle": "Des résultats représentatifs de programmes de transformation menés avec alignement dirigeants et indicateurs mesurables.",
+    "challenge": "Enjeu",
+    "solution": "Solution",
+    "items": {
+      "financial": {
+        "industry": "Services financiers",
+        "problem": "Des systèmes fragmentés ralentissaient l’onboarding et augmentaient le risque opérationnel.",
+        "solution": "Plateforme client unifiée avec workflows de conformité automatisés et monitoring en temps réel.",
+        "result": "+40 %",
+        "resultLabel": "d’efficacité sur les processus clés"
+      },
+      "retail": {
+        "industry": "Retail & consommation",
+        "problem": "Des angles morts sur les stocks généraient des ruptures et une érosion des marges.",
+        "solution": "ERP intégré avec signaux de demande et orchestration fournisseurs.",
+        "result": "−28 %",
+        "resultLabel": "sur le coût de détention des stocks"
+      },
+      "health": {
+        "industry": "Santé",
+        "problem": "L’accueil manuel créait des goulots d’étranglement et une expérience inégale.",
+        "solution": "Portail numérique avec intégration DPE et planification intelligente.",
+        "result": "+50 %",
+        "resultLabel": "d’accueil patient plus rapide"
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Pourquoi Manarix",
+    "title": "Pour les dirigeants qui veulent des résultats — pas du bruit",
+    "strategy": "Stratégie",
+    "technology": "Technologie",
+    "innovationLine": "Une exécution tournée vers l’innovation",
+    "pillars": {
+      "fluency": {
+        "title": "Maîtrise métier et technologie",
+        "description": "Des équipes qui parlent stratégie et ingénierie — pour des roadmaps réalistes et des engagements tenus."
+      },
+      "support": {
+        "title": "Accompagnement de bout en bout",
+        "description": "Du comité de direction à la mise en production — nous restons jusqu’à l’adoption, pas seulement sur les slides."
+      },
+      "scale": {
+        "title": "Solutions évolutives et durables",
+        "description": "Des architectures pensées pour le changement — plateformes modulaires, APIs claires et modernisation pragmatique."
+      },
+      "execution": {
+        "title": "Une exécution exigeante",
+        "description": "Rituels de delivery, gouvernance transparente et vélocité — sans sacrifier qualité ni sécurité."
+      }
+    },
+    "testimonialsTitle": "Ce que disent nos clients",
+    "testimonials": {
+      "one": {
+        "quote": "Manarix a apporté de la clarté à une modernisation complexe — et a livré. Ce mélange de cadrage stratégique et de discipline d’exécution est rare.",
+        "author": "Chief Digital Officer",
+        "org": "Groupe de services"
+      },
+      "two": {
+        "quote": "L’équipe ne nous a pas quittés après la roadmap. L’exécution était disciplinée, transparente et adaptée à notre profil de risque.",
+        "author": "VP Operations",
+        "org": "Entreprise technologique B2B"
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à transformer votre entreprise ?",
+    "subtitle": "Construisons ensemble votre prochaine success story numérique.",
+    "responseBadge": "Réponse sous un jour ouvré en général",
+    "primary": "Planifier un appel stratégique gratuit",
+    "secondary": "Écrire à l’équipe"
+  },
+  "footer": {
+    "tagline": "Nous guidons votre transformation numérique. Nous aidons les organisations à se moderniser avec stratégie, technologie et exécution disciplinée.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterHint": "Regards brefs sur la transformation, les plateformes et la performance.",
+    "emailPlaceholder": "E-mail professionnel",
+    "subscribe": "S’inscrire",
+    "subscribed": "Merci pour votre inscription.",
+    "globalDelivery": "Livraison mondiale",
+    "copyright": "© {{year}} Manarix Solutions. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d’utilisation",
+    "links": {
+      "services": "Services",
+      "about": "À propos",
+      "contact": "Contact"
+    }
+  },
+  "contactPage": {
+    "metaLabel": "Contact",
+    "title": "Contactez-nous",
+    "subtitle": "Réservez votre session stratégique gratuite.",
+    "responseBadge": "Réponse sous 24 h",
+    "formTitle": "Formulaire de contact",
+    "formIntro": "Remplissez le formulaire ci-dessous et nous planifierons votre session stratégique gratuite.",
+    "fields": {
+      "fullName": "Nom complet *",
+      "email": "E-mail *",
+      "phone": "Téléphone",
+      "company": "Entreprise",
+      "service": "Service souhaité *",
+      "message": "Message *"
+    },
+    "placeholders": {
+      "name": "Jean Dupont",
+      "email": "jean@entreprise.com",
+      "phone": "+33 1 23 45 67 89",
+      "company": "Nom de votre entreprise",
+      "message": "Parlez-nous de votre projet ou de vos enjeux..."
+    },
+    "selectService": "Choisir un service",
+    "submit": "Envoyer",
+    "sending": "Envoi...",
+    "footnote": "Sans engagement • Appel découverte 30 min • Conseils d’experts",
+    "successTitle": "Merci !",
+    "successBody": "Votre message a bien été reçu. Notre équipe vous répondra sous 24 heures.",
+    "backHome": "Retour à l’accueil",
+    "cards": {
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "location": "Localisation",
+      "locationValue": "Afrique & monde"
+    },
+    "services": {
+      "strategy": "Stratégie et conseil numérique",
+      "custom": "Solutions numériques sur mesure",
+      "innovation": "Innovation & Labs",
+      "data": "Données et performance",
+      "general": "Demande générale"
+    }
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "switch": "Langue"
+  }
+}
