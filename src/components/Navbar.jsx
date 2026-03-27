@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useActiveSection } from '../hooks/useActiveSection';
+import BrandLogo from './BrandLogo';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const sectionLinks = [
@@ -77,10 +78,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-[72px] gap-4">
           <Link
             to="/"
-            className="group font-heading text-[15px] font-bold text-white tracking-tight flex items-center gap-2 shrink-0"
+            className="group shrink-0 flex items-center rounded-lg bg-white/95 p-1.5 pr-2.5 shadow-[0_4px_24px_-8px_rgba(0,0,0,0.35)] ring-1 ring-white/10 transition-transform duration-300 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-secondary)]"
+            aria-label={t('brand.name')}
           >
-            <span className="w-2 h-2 rounded-full bg-[var(--color-secondary)] shadow-[0_0_12px_rgba(255,111,60,0.6)] group-hover:scale-110 transition-transform" />
-            <span className="group-hover:text-white/95 transition-colors">{t('brand.name')}</span>
+            <BrandLogo className="h-8 md:h-9 max-h-9 max-w-[min(200px,42vw)]" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-6 xl:gap-8 flex-1 justify-end min-w-0">

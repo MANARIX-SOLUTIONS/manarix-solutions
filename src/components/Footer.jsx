@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import BrandLogo from './BrandLogo';
 
 const quickLinkDefs = [
   { to: { pathname: '/', hash: '#services' }, labelKey: 'footer.links.services' },
@@ -45,9 +46,8 @@ export default function Footer() {
       <div className="container mx-auto px-6 lg:px-12 max-w-[1400px] py-16 lg:py-20">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-14 lg:gap-12">
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-5">
-              <span className="w-2 h-2 rounded-full bg-[var(--color-secondary)] shadow-[0_0_12px_rgba(255,111,60,0.5)]" />
-              <p className="font-heading text-lg font-bold tracking-tight">{t('brand.name')}</p>
+            <div className="mb-5 inline-block rounded-lg bg-white p-2 pr-3 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.45)] ring-1 ring-white/10">
+              <BrandLogo className="h-12 sm:h-14 max-w-[min(260px,85vw)]" />
             </div>
             <p className="text-white/65 text-sm leading-[1.75] mb-8 max-w-sm">{t('footer.tagline')}</p>
             <div className="flex gap-3">
