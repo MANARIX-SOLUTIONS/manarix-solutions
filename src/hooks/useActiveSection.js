@@ -1,6 +1,15 @@
 import { useEffect, useState } from 'react';
 
-const sections = ['about', 'services', 'process', 'case-studies', 'why-us', 'contact'];
+const sections = [
+  'trust',
+  'services',
+  'industries',
+  'why-us',
+  'case-studies',
+  'process',
+  'testimonials',
+  'contact',
+];
 
 function getSectionTop(el) {
   const rect = el.getBoundingClientRect();

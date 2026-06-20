@@ -1,184 +1,277 @@
 {
   "meta": {
-    "title": "Manarix Solutions | Conseil en transformation numérique",
-    "description": "Conseil en transformation numérique — stratégie, technologie et exécution."
+    "title": "MANARIX | Conseil et ingénierie technologique",
+    "description": "Conseil et ingénierie technologique premium pour les entreprises africaines — transformation digitale, FinTech, cloud et plateformes d'entreprise."
   },
   "nav": {
-    "about": "À propos",
     "services": "Services",
-    "process": "Notre méthode",
+    "industries": "Secteurs",
+    "process": "Processus",
     "caseStudies": "Études de cas",
-    "whyUs": "Pourquoi nous",
+    "whyUs": "Pourquoi Manarix",
     "contact": "Contact",
     "bookConsultation": "Réserver une consultation",
     "toggleMenu": "Ouvrir le menu"
   },
   "brand": {
-    "name": "Manarix Solutions"
+    "name": "MANARIX",
+    "tagline": "Transformer les opérations. Accélérer la croissance."
   },
   "hero": {
-    "eyebrow": "Manarix Solutions",
-    "title": "Transformez votre entreprise par la technologie et la stratégie",
-    "subtitle": "Nous aidons les organisations à se moderniser, innover et croître grâce à des solutions numériques sur mesure.",
-    "tagline": "Nous guidons votre transformation numérique",
-    "ctaPrimary": "Réserver une consultation gratuite",
-    "ctaSecondary": "Découvrir nos solutions",
-    "trustBadge": "Une entreprise de confiance pour les organisations tournées vers l’avenir"
-  },
-  "trust": {
-    "eyebrow": "Qui sommes-nous",
-    "title": "Transformation métier et technologie",
-    "body": "Manarix Solutions accompagne les organisations dans la modernisation de leurs opérations, la création de produits numériques évolutifs et la croissance grâce à une stratégie et une exécution alignées. Nous combinons expertise conseil et rigueur de delivery — B2B et B2C — pour que l’innovation se traduise en résultats mesurables.",
-    "logosLabel": "Ils nous font confiance",
-    "clients": {
-      "vertex": { "name": "Vertex Global", "sector": "Logiciels d’entreprise" },
-      "nordic": { "name": "Nordic Finance", "sector": "Banque & marchés financiers" },
-      "pulse": { "name": "Pulse Retail", "sector": "Retail & e-commerce" },
-      "helix": { "name": "Helix Health", "sector": "Santé & sciences du vivant" },
-      "apex": { "name": "Apex Manufacturing", "sector": "Industrie & opérations" }
-    },
-    "stats": {
-      "projects": "Projets livrés",
-      "industries": "Secteurs couverts",
-      "impactTitle": "Solutions numériques à fort impact",
-      "impactSubtitle": "De la découverte à l’échelle — avec un ROI mesurable."
+    "eyebrow": "MANARIX",
+    "title": "Des plateformes digitales au service de votre croissance",
+    "subtitle": "Nous aidons les entreprises africaines à moderniser leurs opérations, intégrer les paiements digitaux et construire des plateformes d'entreprise évolutives.",
+    "tagline": "Ingénierie de plateformes digitales pour l'Afrique.",
+    "ctaPrimary": "Réserver une consultation",
+    "ctaSecondary": "Découvrir nos services",
+    "metrics": {
+      "projects": { "value": "50+", "label": "Projets livrés" },
+      "reliability": { "value": "99,9 %", "label": "Fiabilité des plateformes" },
+      "experience": { "value": "4+", "label": "Années d'expérience enterprise" },
+      "expertise": { "value": "3", "label": "Domaines d'expertise clés" }
     }
   },
+  "techTrust": {
+    "eyebrow": "Stack technologique",
+    "title": "Technologies de confiance",
+    "subtitle": "Outils et plateformes enterprise que nous utilisons pour livrer des solutions sécurisées et évolutives."
+  },
+  "technologies": {
+    "java": "Java",
+    "spring": "Spring Boot",
+    "aws": "AWS",
+    "docker": "Docker",
+    "kubernetes": "Kubernetes",
+    "postgres": "PostgreSQL",
+    "kafka": "Kafka",
+    "angular": "Angular",
+    "react": "React"
+  },
   "services": {
-    "eyebrow": "Capabilities",
-    "title": "Du conseil à l’exécution, de bout en bout",
-    "subtitle": "Une approche pilotée par la stratégie sur les produits, plateformes et la performance — structurée pour la clarté et l’impact.",
+    "eyebrow": "Expertises",
+    "title": "Ce que nous faisons",
+    "subtitle": "Conseil et ingénierie de bout en bout pour les organisations exigeant une exécution de niveau enterprise.",
+    "pillars": {
+      "strategy": "Stratégie",
+      "build": "Construction",
+      "scale": "Croissance"
+    },
+    "learnMore": "Discuter de ce service",
+    "ctaBand": {
+      "title": "Vous ne savez pas par où commencer ?",
+      "subtitle": "Nos consultants vous aident à identifier le bon point d'entrée pour votre transformation.",
+      "button": "Réserver une consultation"
+    },
     "items": {
-      "strategy": {
-        "title": "Stratégie et conseil numérique",
-        "description": "Feuilles de route de transformation, modèles opérationnels et alignement technologique — pour que chaque initiative soutienne la croissance."
+      "transformation": {
+        "title": "Transformation digitale",
+        "description": "Moderniser les opérations legacy, digitaliser les workflows clés et aligner les investissements technologiques sur des résultats business mesurables.",
+        "highlights": ["Design du modèle opérationnel", "Automatisation des processus", "Conduite du changement"]
       },
-      "custom": {
-        "title": "Solutions numériques sur mesure",
-        "description": "SaaS, ERP, CRM et expériences web & mobile conçues pour la fiabilité, la sécurité et la montée en charge."
+      "engineering": {
+        "title": "Ingénierie d'entreprise",
+        "description": "Concevoir et construire des plateformes critiques avec une architecture propre, des APIs robustes et des pratiques de delivery production-ready.",
+        "highlights": ["Microservices & APIs", "ERP/CRM sur mesure", "Plateformes mobile & web"]
       },
-      "innovation": {
-        "title": "Innovation & Labs",
-        "description": "Prototypage rapide, MVP et expérimentation structurée pour réduire les risques avant un déploiement à grande échelle."
+      "fintech": {
+        "title": "FinTech & Paiements",
+        "description": "Intégrer mobile money, rails bancaires et passerelles de paiement dans une infrastructure financière unifiée et sécurisée pour les marchés africains.",
+        "highlights": ["Intégration mobile money", "Hubs de paiement & APIs", "Conformité & réconciliation"]
       },
-      "data": {
-        "title": "Données et performance",
-        "description": "Analytique, tableaux de bord et intelligence décisionnelle pour transformer la donnée en action."
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Migrer, déployer et opérer des systèmes cloud-native sur AWS avec pipelines CI/CD, observabilité et infrastructure as code.",
+        "highlights": ["Architecture AWS", "Kubernetes & Docker", "Automatisation CI/CD"]
+      },
+      "integration": {
+        "title": "Intégration de systèmes",
+        "description": "Connecter ERP, CRM, core banking et systèmes tiers en flux de données cohérents et temps réel à travers l'organisation.",
+        "highlights": ["Bus d'entreprise & ETL", "Modernisation legacy", "Synchronisation temps réel"]
+      },
+      "consulting": {
+        "title": "Conseil technologique",
+        "description": "Conseil exécutif en stratégie technologique, sélection de vendors, revues d'architecture et feuilles de route digitales alignées sur la croissance.",
+        "highlights": ["Due diligence tech", "Revue d'architecture", "Roadmaps digitales"]
       }
     }
   },
-  "process": {
-    "eyebrow": "Notre méthode",
-    "title": "Un parcours discipliné de l’insight à l’impact",
-    "subtitle": "Des étapes claires, une responsabilité partagée et une dynamique mesurable — conseil, réalisation ou les deux.",
-    "steps": {
-      "discover": { "title": "Découvrir", "subtitle": "Comprendre les enjeux métier" },
-      "strategize": { "title": "Stratégie", "subtitle": "Construire la feuille de route" },
-      "build": { "title": "Construire", "subtitle": "Développer et intégrer les solutions" },
-      "scale": { "title": "Accélérer", "subtitle": "Optimiser et faire croître" }
-    }
-  },
-  "cases": {
-    "eyebrow": "Impact",
-    "title": "Études de cas et résultats",
-    "subtitle": "Des résultats représentatifs de programmes de transformation menés avec alignement dirigeants et indicateurs mesurables.",
-    "challenge": "Enjeu",
-    "solution": "Solution",
+  "industries": {
+    "eyebrow": "Secteurs",
+    "title": "Secteurs que nous servons",
+    "subtitle": "Expertise sectorielle approfondie dans les industries réglementées et à forte croissance en Afrique.",
     "items": {
-      "financial": {
-        "industry": "Services financiers",
-        "problem": "Des systèmes fragmentés ralentissaient l’onboarding et augmentaient le risque opérationnel.",
-        "solution": "Plateforme client unifiée avec workflows de conformité automatisés et monitoring en temps réel.",
-        "result": "+40 %",
-        "resultLabel": "d’efficacité sur les processus clés"
+      "banking": {
+        "title": "Banque",
+        "description": "Modernisation du core banking, canaux digitaux et conformité réglementaire."
+      },
+      "fintech": {
+        "title": "FinTech",
+        "description": "Rails de paiement, intégration mobile money et plateformes de produits financiers."
+      },
+      "insurance": {
+        "title": "Assurance",
+        "description": "Administration des polices, automatisation des sinistres et portails self-service."
+      },
+      "healthcare": {
+        "title": "Santé",
+        "description": "Gestion patient, workflows cliniques et systèmes de données de santé sécurisés."
+      },
+      "logistics": {
+        "title": "Logistique",
+        "description": "Suivi de flotte, visibilité supply chain et automatisation opérationnelle."
       },
       "retail": {
-        "industry": "Retail & consommation",
-        "problem": "Des angles morts sur les stocks généraient des ruptures et une érosion des marges.",
-        "solution": "ERP intégré avec signaux de demande et orchestration fournisseurs.",
-        "result": "−28 %",
-        "resultLabel": "sur le coût de détention des stocks"
-      },
-      "health": {
-        "industry": "Santé",
-        "problem": "L’accueil manuel créait des goulots d’étranglement et une expérience inégale.",
-        "solution": "Portail numérique avec intégration DPE et planification intelligente.",
-        "result": "+50 %",
-        "resultLabel": "d’accueil patient plus rapide"
+        "title": "Retail & Distribution",
+        "description": "Commerce omnicanal, gestion des stocks et réseaux de distribution."
       }
     }
   },
   "why": {
     "eyebrow": "Pourquoi Manarix",
-    "title": "Pour les dirigeants qui veulent des résultats — pas du bruit",
-    "strategy": "Stratégie",
-    "technology": "Technologie",
-    "innovationLine": "Une exécution tournée vers l’innovation",
+    "title": "Pourquoi les organisations leaders choisissent Manarix",
+    "subtitle": "Un partenaire conseil et ingénierie premium — pas une agence web.",
     "pillars": {
-      "fluency": {
-        "title": "Maîtrise métier et technologie",
-        "description": "Des équipes qui parlent stratégie et ingénierie — pour des roadmaps réalistes et des engagements tenus."
+      "businessFirst": {
+        "title": "Approche business-first",
+        "description": "Chaque décision technique est ancrée dans des résultats business mesurables et l'alignement direction."
       },
-      "support": {
-        "title": "Accompagnement de bout en bout",
-        "description": "Du comité de direction à la mise en production — nous restons jusqu’à l’adoption, pas seulement sur les slides."
+      "architecture": {
+        "title": "Architecture enterprise-grade",
+        "description": "Systèmes modulaires, sécurisés et évolutifs conçus pour la résilience opérationnelle."
       },
-      "scale": {
-        "title": "Solutions évolutives et durables",
-        "description": "Des architectures pensées pour le changement — plateformes modulaires, APIs claires et modernisation pragmatique."
+      "security": {
+        "title": "Solutions sécurisées et évolutives",
+        "description": "Security-by-design avec des patterns éprouvés pour des environnements haute disponibilité."
       },
-      "execution": {
-        "title": "Une exécution exigeante",
-        "description": "Rituels de delivery, gouvernance transparente et vélocité — sans sacrifier qualité ni sécurité."
+      "fintech": {
+        "title": "Expertise FinTech approfondie",
+        "description": "Intégration paiements, mobile money et infrastructure financière sur les marchés africains."
+      },
+      "cloud": {
+        "title": "Technologies cloud modernes",
+        "description": "Delivery cloud-native sur AWS avec conteneurisation, CI/CD et observabilité intégrées."
+      },
+      "delivery": {
+        "title": "Livraison de bout en bout",
+        "description": "De la discovery au déploiement et l'amélioration continue — un partenaire responsable."
       }
-    },
-    "testimonialsTitle": "Ce que disent nos clients",
-    "testimonials": {
+    }
+  },
+  "cases": {
+    "eyebrow": "Impact",
+    "title": "Études de cas",
+    "subtitle": "Résultats représentatifs de programmes enterprise livrés avec un impact business mesurable.",
+    "challenge": "Enjeu",
+    "solution": "Solution",
+    "outcome": "Résultat",
+    "items": {
+      "banking": {
+        "title": "Plateforme bancaire digitale",
+        "industry": "Banque",
+        "problem": "Les systèmes legacy limitaient les lancements de produits digitaux et augmentaient la charge opérationnelle.",
+        "solution": "Plateforme bancaire modulaire avec architecture API-first, workflows de conformité automatisés et monitoring temps réel.",
+        "result": "40 % plus rapide",
+        "resultLabel": "time-to-market pour les nouveaux produits digitaux"
+      },
+      "payments": {
+        "title": "Hub d'intégration paiements",
+        "industry": "FinTech",
+        "problem": "Plusieurs opérateurs mobile money nécessitaient des intégrations séparées, ralentissant l'onboarding marchands.",
+        "solution": "Hub de paiement unifié connectant Orange Money, Wave et rails bancaires via une API unique avec règlement automatisé.",
+        "result": "×3",
+        "resultLabel": "d'accélération de l'onboarding marchands"
+      },
+      "operations": {
+        "title": "Plateforme opérations enterprise",
+        "industry": "Logistique",
+        "problem": "Dispatch manuel et suivi des stocks causaient retards, fuites de revenus et faible visibilité régionale.",
+        "solution": "Plateforme opérationnelle end-to-end avec suivi de flotte, workflows automatisés et dashboards exécutifs.",
+        "result": "−35 %",
+        "resultLabel": "de temps de traitement opérationnel"
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Notre approche",
+    "title": "De la stratégie à l'exécution",
+    "subtitle": "Une méthodologie en six étapes qui transforme la stratégie en systèmes production-ready.",
+    "steps": {
+      "discovery": { "title": "Discovery", "subtitle": "Comprendre les enjeux et contraintes métier" },
+      "strategy": { "title": "Stratégie", "subtitle": "Définir la feuille de route de transformation" },
+      "architecture": { "title": "Architecture", "subtitle": "Concevoir des blueprints système évolutifs" },
+      "development": { "title": "Développement", "subtitle": "Construire et intégrer en delivery agile" },
+      "deployment": { "title": "Déploiement", "subtitle": "Lancer avec monitoring et gouvernance" },
+      "improvement": { "title": "Amélioration continue", "subtitle": "Optimiser, scaler et faire évoluer" }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Témoignages",
+    "title": "La confiance des leaders enterprise",
+    "items": {
       "one": {
-        "quote": "Manarix a apporté de la clarté à une modernisation complexe — et a livré. Ce mélange de cadrage stratégique et de discipline d’exécution est rare.",
-        "author": "Chief Digital Officer",
-        "org": "Groupe de services"
+        "quote": "Manarix a livré notre hub d'intégration paiements dans les délais avec 99,9 % d'uptime dès le premier jour. Leur expertise FinTech et discipline d'ingénierie les distinguent.",
+        "author": "Head of Digital Banking",
+        "org": "Banque commerciale régionale, Afrique de l'Ouest"
       },
       "two": {
-        "quote": "L’équipe ne nous a pas quittés après la roadmap. L’exécution était disciplinée, transparente et adaptée à notre profil de risque.",
-        "author": "VP Operations",
-        "org": "Entreprise technologique B2B"
+        "quote": "Ils ont compris nos contraintes business avant d'écrire une ligne de code. La plateforme opérationnelle a réduit notre temps de traitement d'un tiers en six mois.",
+        "author": "Chief Operations Officer",
+        "org": "Groupe logistique panafricain"
+      },
+      "three": {
+        "quote": "Professionnels, transparents et techniquement excellents. Manarix a fait le pont entre notre direction et l'ingénierie — et est resté jusqu'au go-live.",
+        "author": "VP Technology",
+        "org": "Fournisseur de technologie assurance"
       }
     }
   },
   "cta": {
-    "title": "Prêt à transformer votre entreprise ?",
-    "subtitle": "Construisons ensemble votre prochaine success story numérique.",
-    "responseBadge": "Réponse sous un jour ouvré en général",
-    "primary": "Planifier un appel stratégique gratuit",
-    "secondary": "Écrire à l’équipe"
+    "title": "Prêt à accélérer votre transformation digitale ?",
+    "subtitle": "Discutons de la façon dont Manarix peut aider votre organisation à construire des plateformes digitales évolutives et débloquer de nouvelles opportunités de croissance.",
+    "primary": "Réserver une consultation",
+    "secondary": "Nous contacter"
   },
   "footer": {
-    "tagline": "Nous guidons votre transformation numérique. Nous aidons les organisations à se moderniser avec stratégie, technologie et exécution disciplinée.",
-    "navigation": "Navigation",
+    "tagline": "Transformer les opérations. Accélérer la croissance. Conseil et ingénierie technologique premium pour les entreprises africaines.",
+    "company": "Entreprise",
+    "services": "Services",
+    "industries": "Secteurs",
+    "resources": "Ressources",
     "contact": "Contact",
-    "newsletter": "Newsletter",
-    "newsletterHint": "Regards brefs sur la transformation, les plateformes et la performance.",
-    "emailPlaceholder": "E-mail professionnel",
-    "subscribe": "S’inscrire",
-    "subscribed": "Merci pour votre inscription.",
-    "globalDelivery": "Livraison mondiale",
-    "copyright": "© {{year}} Manarix Solutions. Tous droits réservés.",
+    "copyright": "© {{year}} MANARIX. Tous droits réservés.",
     "privacy": "Politique de confidentialité",
-    "terms": "Conditions d’utilisation",
+    "terms": "Conditions d'utilisation",
     "links": {
-      "services": "Services",
       "about": "À propos",
+      "process": "Processus",
+      "caseStudies": "Études de cas",
+      "whyUs": "Pourquoi Manarix",
       "contact": "Contact"
+    },
+    "serviceLinks": {
+      "transformation": "Transformation digitale",
+      "engineering": "Ingénierie d'entreprise",
+      "fintech": "FinTech & Paiements",
+      "cloud": "Cloud & DevOps"
+    },
+    "industryLinks": {
+      "banking": "Banque",
+      "fintech": "FinTech",
+      "insurance": "Assurance",
+      "healthcare": "Santé"
+    },
+    "resourceLinks": {
+      "cases": "Études de cas",
+      "process": "Notre processus"
     }
   },
   "contactPage": {
     "metaLabel": "Contact",
     "title": "Contactez-nous",
-    "subtitle": "Réservez votre session stratégique gratuite.",
+    "subtitle": "Réservez une consultation avec notre équipe conseil et ingénierie.",
     "responseBadge": "Réponse sous 24 h",
     "formTitle": "Formulaire de contact",
-    "formIntro": "Remplissez le formulaire ci-dessous et nous planifierons votre session stratégique gratuite.",
+    "formIntro": "Parlez-nous de votre projet et nous planifierons une consultation.",
     "fields": {
       "fullName": "Nom complet *",
       "email": "E-mail *",
@@ -190,17 +283,17 @@
     "placeholders": {
       "name": "Jean Dupont",
       "email": "jean@entreprise.com",
-      "phone": "+33 1 23 45 67 89",
+      "phone": "+221 77 000 00 00",
       "company": "Nom de votre entreprise",
       "message": "Parlez-nous de votre projet ou de vos enjeux..."
     },
     "selectService": "Choisir un service",
     "submit": "Envoyer",
     "sending": "Envoi...",
-    "footnote": "Sans engagement • Appel découverte 30 min • Conseils d’experts",
+    "footnote": "Sans engagement • Appel découverte 30 min • Conseils d'experts",
     "successTitle": "Merci !",
     "successBody": "Votre message a bien été reçu. Notre équipe vous répondra sous 24 heures.",
-    "backHome": "Retour à l’accueil",
+    "backHome": "Retour à l'accueil",
     "cards": {
       "email": "E-mail",
       "phone": "Téléphone",
@@ -208,10 +301,12 @@
       "locationValue": "Afrique & monde"
     },
     "services": {
-      "strategy": "Stratégie et conseil numérique",
-      "custom": "Solutions numériques sur mesure",
-      "innovation": "Innovation & Labs",
-      "data": "Données et performance",
+      "transformation": "Transformation digitale",
+      "engineering": "Ingénierie d'entreprise",
+      "fintech": "FinTech & Paiements",
+      "cloud": "Cloud & DevOps",
+      "integration": "Intégration de systèmes",
+      "consulting": "Conseil technologique",
       "general": "Demande générale"
     }
   },

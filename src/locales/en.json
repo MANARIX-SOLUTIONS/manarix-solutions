@@ -1,184 +1,277 @@
 {
   "meta": {
-    "title": "Manarix Solutions | Digital Transformation Consulting",
-    "description": "Digital transformation consulting — strategy, technology, and execution."
+    "title": "MANARIX | Technology Consulting & Engineering",
+    "description": "Premium technology consulting and engineering for African enterprises — digital transformation, FinTech, cloud architecture, and enterprise platforms."
   },
   "nav": {
-    "about": "About",
     "services": "Services",
-    "process": "How We Work",
+    "industries": "Industries",
+    "process": "Process",
     "caseStudies": "Case Studies",
-    "whyUs": "Why Us",
+    "whyUs": "Why Manarix",
     "contact": "Contact",
     "bookConsultation": "Book a Consultation",
     "toggleMenu": "Toggle menu"
   },
   "brand": {
-    "name": "Manarix Solutions"
+    "name": "MANARIX",
+    "tagline": "Transforming Operations. Powering Growth."
   },
   "hero": {
-    "eyebrow": "Manarix Solutions",
-    "title": "Transform Your Business Through Technology and Strategy",
-    "subtitle": "We help companies modernize, innovate, and scale with tailored digital solutions.",
-    "tagline": "Guiding your digital transformation",
-    "ctaPrimary": "Book a Free Consultation",
-    "ctaSecondary": "Explore Our Solutions",
-    "trustBadge": "Trusted by growing businesses and forward-thinking organizations"
-  },
-  "trust": {
-    "eyebrow": "Who we are",
-    "title": "Business + technology transformation",
-    "body": "Manarix Solutions is a digital transformation firm helping organizations modernize operations, build scalable digital products, and drive growth through aligned strategy and execution. We combine advisory depth with delivery rigor—for B2B and B2C contexts—so innovation becomes measurable outcomes.",
-    "logosLabel": "Trusted by teams at",
-    "clients": {
-      "vertex": { "name": "Vertex Global", "sector": "Enterprise software" },
-      "nordic": { "name": "Nordic Finance", "sector": "Banking & capital markets" },
-      "pulse": { "name": "Pulse Retail", "sector": "Retail & e-commerce" },
-      "helix": { "name": "Helix Health", "sector": "Healthcare & life sciences" },
-      "apex": { "name": "Apex Manufacturing", "sector": "Industrial & operations" }
-    },
-    "stats": {
-      "projects": "Projects Delivered",
-      "industries": "Industries Served",
-      "impactTitle": "High-impact digital solutions",
-      "impactSubtitle": "From discovery to scale—with measurable ROI."
+    "eyebrow": "MANARIX",
+    "title": "Building Digital Platforms That Drive Business Growth",
+    "subtitle": "We help African businesses modernize operations, integrate digital payments, and build scalable enterprise platforms.",
+    "tagline": "Engineering Digital Platforms for Africa.",
+    "ctaPrimary": "Book a Consultation",
+    "ctaSecondary": "Explore Our Services",
+    "metrics": {
+      "projects": { "value": "50+", "label": "Projects Delivered" },
+      "reliability": { "value": "99.9%", "label": "Platform Reliability" },
+      "experience": { "value": "4+", "label": "Years Enterprise Experience" },
+      "expertise": { "value": "3", "label": "Core Expertise Areas" }
     }
+  },
+  "techTrust": {
+    "eyebrow": "Technology Stack",
+    "title": "Trusted Technologies",
+    "subtitle": "Enterprise-grade tools and platforms we use to deliver secure, scalable solutions."
+  },
+  "technologies": {
+    "java": "Java",
+    "spring": "Spring Boot",
+    "aws": "AWS",
+    "docker": "Docker",
+    "kubernetes": "Kubernetes",
+    "postgres": "PostgreSQL",
+    "kafka": "Kafka",
+    "angular": "Angular",
+    "react": "React"
   },
   "services": {
     "eyebrow": "Capabilities",
-    "title": "Advisory and execution, end to end",
-    "subtitle": "Strategy-led delivery across digital products, platforms, and performance—structured for clarity and impact.",
+    "title": "What We Do",
+    "subtitle": "End-to-end consulting and engineering for organizations that demand enterprise-grade execution.",
+    "pillars": {
+      "strategy": "Strategy",
+      "build": "Build",
+      "scale": "Scale"
+    },
+    "learnMore": "Discuss this service",
+    "ctaBand": {
+      "title": "Not sure where to start?",
+      "subtitle": "Our consultants will help you identify the right entry point for your transformation.",
+      "button": "Book a Consultation"
+    },
     "items": {
-      "strategy": {
-        "title": "Digital Strategy & Advisory",
-        "description": "Business transformation roadmaps, operating models, and technology alignment—so every initiative ladders to growth."
+      "transformation": {
+        "title": "Digital Transformation",
+        "description": "Modernize legacy operations, digitize core workflows, and align technology investments with measurable business outcomes.",
+        "highlights": ["Operating model design", "Process automation", "Change management"]
       },
-      "custom": {
-        "title": "Custom Digital Solutions",
-        "description": "SaaS, ERP, CRM, and web & mobile experiences engineered for reliability, security, and scale."
+      "engineering": {
+        "title": "Enterprise Engineering",
+        "description": "Design and build mission-critical platforms with clean architecture, robust APIs, and production-grade delivery practices.",
+        "highlights": ["Microservices & APIs", "Custom ERP/CRM", "Mobile & web platforms"]
       },
-      "innovation": {
-        "title": "Innovation & Labs",
-        "description": "Rapid prototyping, MVPs, and structured experimentation to de-risk innovation before full rollout."
+      "fintech": {
+        "title": "FinTech & Payments",
+        "description": "Integrate mobile money, banking rails, and payment gateways into unified, secure financial infrastructure for African markets.",
+        "highlights": ["Mobile money integration", "Payment hubs & APIs", "Compliance & reconciliation"]
       },
-      "data": {
-        "title": "Data & Performance Optimization",
-        "description": "Analytics, dashboards, and business intelligence that turn fragmented data into decisive action."
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Migrate, deploy, and operate cloud-native systems on AWS with CI/CD pipelines, observability, and infrastructure as code.",
+        "highlights": ["AWS architecture", "Kubernetes & Docker", "CI/CD automation"]
+      },
+      "integration": {
+        "title": "System Integration",
+        "description": "Connect ERP, CRM, core banking, and third-party systems into cohesive, real-time data flows across your organization.",
+        "highlights": ["Enterprise bus & ETL", "Legacy modernization", "Real-time sync"]
+      },
+      "consulting": {
+        "title": "Technology Consulting",
+        "description": "Executive advisory on technology strategy, vendor selection, architecture reviews, and digital roadmaps aligned to growth goals.",
+        "highlights": ["Tech due diligence", "Architecture review", "Digital roadmaps"]
       }
     }
   },
-  "process": {
-    "eyebrow": "How we work",
-    "title": "A disciplined path from insight to impact",
-    "subtitle": "Clear stages, shared accountability, and momentum you can measure—whether you need strategy, build, or both.",
-    "steps": {
-      "discover": { "title": "Discover", "subtitle": "Understand business challenges" },
-      "strategize": { "title": "Strategize", "subtitle": "Build transformation roadmap" },
-      "build": { "title": "Build", "subtitle": "Develop and integrate solutions" },
-      "scale": { "title": "Scale", "subtitle": "Optimize and grow" }
-    }
-  },
-  "cases": {
-    "eyebrow": "Proof of impact",
-    "title": "Case studies & results",
-    "subtitle": "Representative outcomes from transformation programs delivered with executive alignment and measurable KPIs.",
-    "challenge": "Challenge",
-    "solution": "Solution",
+  "industries": {
+    "eyebrow": "Sectors",
+    "title": "Industries We Serve",
+    "subtitle": "Deep domain expertise across regulated and high-growth sectors across Africa.",
     "items": {
-      "financial": {
-        "industry": "Financial services",
-        "problem": "Fragmented systems slowed onboarding and increased operational risk.",
-        "solution": "Unified customer platform with automated compliance workflows and real-time monitoring.",
-        "result": "+40%",
-        "resultLabel": "efficiency in core processes"
+      "banking": {
+        "title": "Banking",
+        "description": "Core banking modernization, digital channels, and regulatory compliance."
+      },
+      "fintech": {
+        "title": "FinTech",
+        "description": "Payment rails, mobile money integration, and financial product platforms."
+      },
+      "insurance": {
+        "title": "Insurance",
+        "description": "Policy administration, claims automation, and customer self-service portals."
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "Patient management, clinical workflows, and secure health data systems."
+      },
+      "logistics": {
+        "title": "Logistics",
+        "description": "Fleet tracking, supply chain visibility, and operational automation."
       },
       "retail": {
-        "industry": "Retail & consumer",
-        "problem": "Inventory blind spots drove stockouts and margin leakage across regions.",
-        "solution": "Integrated ERP with demand signals and supplier orchestration.",
-        "result": "−28%",
-        "resultLabel": "inventory carrying cost"
-      },
-      "health": {
-        "industry": "Healthcare",
-        "problem": "Manual intake created bottlenecks and inconsistent patient experience.",
-        "solution": "Digital front door with EHR integration and intelligent scheduling.",
-        "result": "+50%",
-        "resultLabel": "faster patient check-in"
+        "title": "Retail & Distribution",
+        "description": "Omnichannel commerce, inventory management, and distributor networks."
       }
     }
   },
   "why": {
     "eyebrow": "Why Manarix",
-    "title": "Built for leaders who need outcomes—not noise",
-    "strategy": "Strategy",
-    "technology": "Technology",
-    "innovationLine": "Innovation-driven delivery",
+    "title": "Why Leading Organizations Choose Manarix",
+    "subtitle": "A premium consulting and engineering partner — not a web agency.",
     "pillars": {
-      "fluency": {
-        "title": "Business + technology fluency",
-        "description": "Leaders who speak strategy and engineering—so roadmaps stay feasible and outcomes stay accountable."
+      "businessFirst": {
+        "title": "Business-first approach",
+        "description": "Every technical decision is anchored in measurable business outcomes and executive alignment."
       },
-      "support": {
-        "title": "End-to-end support",
-        "description": "From boardroom narrative to production releases—we stay through adoption, not just the slide deck."
+      "architecture": {
+        "title": "Enterprise-grade architecture",
+        "description": "Modular, secure, and scalable systems designed for long-term operational resilience."
       },
-      "scale": {
-        "title": "Scalable, future-proof solutions",
-        "description": "Architectures designed for change—modular platforms, clear APIs, and pragmatic modernization."
+      "security": {
+        "title": "Secure and scalable solutions",
+        "description": "Security-by-design with proven patterns for high-availability production environments."
       },
-      "execution": {
-        "title": "Strong execution capability",
-        "description": "Delivery rituals, transparent governance, and velocity—without sacrificing quality or security."
+      "fintech": {
+        "title": "Deep FinTech expertise",
+        "description": "Payment integration, mobile money, and financial infrastructure across African markets."
+      },
+      "cloud": {
+        "title": "Modern cloud technologies",
+        "description": "Cloud-native delivery on AWS with containerization, CI/CD, and observability built in."
+      },
+      "delivery": {
+        "title": "End-to-end delivery",
+        "description": "From discovery through deployment and continuous improvement — one accountable partner."
       }
-    },
-    "testimonialsTitle": "What clients say",
-    "testimonials": {
+    }
+  },
+  "cases": {
+    "eyebrow": "Proof of impact",
+    "title": "Case Studies",
+    "subtitle": "Representative outcomes from enterprise programs delivered with measurable business impact.",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "outcome": "Outcome",
+    "items": {
+      "banking": {
+        "title": "Digital Banking Platform",
+        "industry": "Banking",
+        "problem": "Legacy core systems limited digital product launches and increased operational overhead across branches.",
+        "solution": "Modular banking platform with API-first architecture, automated compliance workflows, and real-time transaction monitoring.",
+        "result": "40% faster",
+        "resultLabel": "time-to-market for new digital products"
+      },
+      "payments": {
+        "title": "Payment Integration Hub",
+        "industry": "FinTech",
+        "problem": "Multiple mobile money providers required separate integrations, slowing merchant onboarding and reconciliation.",
+        "solution": "Unified payment hub connecting Orange Money, Wave, and bank rails through a single API with automated settlement.",
+        "result": "3× increase",
+        "resultLabel": "in merchant onboarding velocity"
+      },
+      "operations": {
+        "title": "Enterprise Operations Platform",
+        "industry": "Logistics",
+        "problem": "Manual dispatch and inventory tracking caused delays, revenue leakage, and poor visibility across regions.",
+        "solution": "End-to-end operations platform with fleet tracking, automated workflows, and executive dashboards.",
+        "result": "35% reduction",
+        "resultLabel": "in operational processing time"
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Our approach",
+    "title": "From Strategy to Execution",
+    "subtitle": "A disciplined six-stage methodology that transforms strategy into production-grade systems.",
+    "steps": {
+      "discovery": { "title": "Discovery", "subtitle": "Understand business challenges and constraints" },
+      "strategy": { "title": "Strategy", "subtitle": "Define transformation roadmap and priorities" },
+      "architecture": { "title": "Architecture", "subtitle": "Design scalable, secure system blueprints" },
+      "development": { "title": "Development", "subtitle": "Build and integrate with agile delivery" },
+      "deployment": { "title": "Deployment", "subtitle": "Launch with monitoring and governance" },
+      "improvement": { "title": "Continuous Improvement", "subtitle": "Optimize, scale, and evolve" }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Client voices",
+    "title": "Trusted by Enterprise Leaders",
+    "items": {
       "one": {
-        "quote": "Manarix brought clarity to a complex modernization agenda—and shipped. The blend of strategic framing and delivery discipline is rare.",
-        "author": "Chief Digital Officer",
-        "org": "Global services firm"
+        "quote": "Manarix delivered our payment integration hub on schedule with 99.9% uptime from day one. Their FinTech expertise and engineering discipline set them apart.",
+        "author": "Head of Digital Banking",
+        "org": "Regional commercial bank, West Africa"
       },
       "two": {
-        "quote": "They didn’t disappear after the roadmap. Execution was disciplined, transparent, and tuned to our risk profile.",
-        "author": "VP Operations",
-        "org": "B2B technology company"
+        "quote": "They understood our business constraints before writing a single line of code. The operations platform reduced our processing time by over a third within six months.",
+        "author": "Chief Operations Officer",
+        "org": "Pan-African logistics group"
+      },
+      "three": {
+        "quote": "Professional, transparent, and technically excellent. Manarix bridged the gap between our executive team and engineering — and stayed through go-live.",
+        "author": "VP Technology",
+        "org": "Insurance technology provider"
       }
     }
   },
   "cta": {
-    "title": "Ready to transform your business?",
-    "subtitle": "Let's build your next digital success story.",
-    "responseBadge": "Typical response within one business day",
-    "primary": "Schedule Your Free Strategy Call",
-    "secondary": "Email our team"
+    "title": "Ready to Accelerate Your Digital Transformation?",
+    "subtitle": "Let's discuss how Manarix can help your organization build scalable digital platforms and unlock new growth opportunities.",
+    "primary": "Book a Consultation",
+    "secondary": "Contact Us"
   },
   "footer": {
-    "tagline": "Guiding your digital transformation. We help organizations modernize with strategy, technology, and disciplined execution.",
-    "navigation": "Navigation",
+    "tagline": "Transforming Operations. Powering Growth. Premium technology consulting and engineering for African enterprises.",
+    "company": "Company",
+    "services": "Services",
+    "industries": "Industries",
+    "resources": "Resources",
     "contact": "Contact",
-    "newsletter": "Newsletter",
-    "newsletterHint": "Brief perspectives on transformation, platforms, and performance.",
-    "emailPlaceholder": "Work email",
-    "subscribe": "Subscribe",
-    "subscribed": "Thank you for subscribing.",
-    "globalDelivery": "Global delivery",
-    "copyright": "© {{year}} Manarix Solutions. All rights reserved.",
+    "copyright": "© {{year}} MANARIX. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "links": {
-      "services": "Services",
       "about": "About",
+      "process": "Process",
+      "caseStudies": "Case Studies",
+      "whyUs": "Why Manarix",
       "contact": "Contact"
+    },
+    "serviceLinks": {
+      "transformation": "Digital Transformation",
+      "engineering": "Enterprise Engineering",
+      "fintech": "FinTech & Payments",
+      "cloud": "Cloud & DevOps"
+    },
+    "industryLinks": {
+      "banking": "Banking",
+      "fintech": "FinTech",
+      "insurance": "Insurance",
+      "healthcare": "Healthcare"
+    },
+    "resourceLinks": {
+      "cases": "Case Studies",
+      "process": "Our Process"
     }
   },
   "contactPage": {
     "metaLabel": "Contact",
     "title": "Get in Touch",
-    "subtitle": "Book your free strategy session.",
+    "subtitle": "Book a consultation with our consulting and engineering team.",
     "responseBadge": "Response within 24h",
     "formTitle": "Contact Form",
-    "formIntro": "Fill out the form below and we'll schedule your free strategy session.",
+    "formIntro": "Tell us about your project and we'll schedule a consultation.",
     "fields": {
       "fullName": "Full Name *",
       "email": "Email *",
@@ -190,7 +283,7 @@
     "placeholders": {
       "name": "John Doe",
       "email": "john@company.com",
-      "phone": "+1 (234) 567-890",
+      "phone": "+221 77 000 00 00",
       "company": "Your company name",
       "message": "Tell us about your project or challenges..."
     },
@@ -208,10 +301,12 @@
       "locationValue": "Africa & Global"
     },
     "services": {
-      "strategy": "Digital Strategy & Advisory",
-      "custom": "Custom Digital Solutions",
-      "innovation": "Innovation & Labs",
-      "data": "Data & Performance Optimization",
+      "transformation": "Digital Transformation",
+      "engineering": "Enterprise Engineering",
+      "fintech": "FinTech & Payments",
+      "cloud": "Cloud & DevOps",
+      "integration": "System Integration",
+      "consulting": "Technology Consulting",
       "general": "General inquiry"
     }
   },

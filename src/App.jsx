@@ -3,12 +3,14 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import DocumentHead from './components/DocumentHead';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
       <DocumentHead />
-      <div className="min-h-screen bg-[var(--color-neutral)]">
+      <ScrollToTop />
+      <div className="min-h-screen bg-white">
         <Routes>
           <Route
             path="/"
